@@ -1,0 +1,83 @@
+.title{
+    font-size: 1em;
+    background-color: beige;
+    padding: 1em;
+}
+
+.buttonBack{
+    margin-left: 8em;
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+
+.formCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em
+}
+
+.form{
+    background-color: beige;
+    padding: 1.8em;
+    padding-bottom: .8em;
+    border: solid black 1px;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+.errors{
+    font-size: .7em;
+    color: red;
+}
+
+text{
+    font-size: 1em;
+}
+
+.input{
+    font-size: .9em;
+}
+.inputNum {
+    font-size: .9em;
+    width: 4em;
+}
+
+p{
+    font-size: .8em;
+    color:red
+}
+
+.submit{
+    
+    margin-left: 8em;
+    padding: .8em;
+    border:solid 1px black;
+    color:white;
+    background-color:#03A9F4 ;
+    font-size: 1em;
+    cursor: pointer;
+    transition:.3s;
+}
+
+@media (max-width: 750px){
+
+    .title{
+        padding: auto;
+    }
+
+    .buttonBack{
+        padding: .4em;
+    }
+
+    .form{
+        padding: .3em;
+    }
+
+    label, input[type="number"], input[placeholder], select,.submit{
+        font-size: .7em;
+    }
+}

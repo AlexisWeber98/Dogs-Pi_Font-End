@@ -30,9 +30,9 @@
     margin: .5em
   }
 
-  @media (max-width:1080px){
+  @media (max-width:720px){
     .card{
-      width: 13em;
+      width: 15em;
       margin: 5px;
     }
 

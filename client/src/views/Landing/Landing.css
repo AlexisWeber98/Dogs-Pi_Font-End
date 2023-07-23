@@ -2,7 +2,9 @@
 body{
 background-image:url(../../assets/pxfuel.jpg);
 background-repeat: no-repeat;
-background-size: cover;
+background-size: 100%vh;
+background-position: center;
+
 }
 
 .buttonEnter{

@@ -1,3 +1,7 @@
+.cont{
+    height: 100%;;
+}
+
 .title{
     font-size: 1em;
     background-color: beige;
@@ -63,7 +67,7 @@ p{
     transition:.3s;
 }
 
-@media (max-width: 750px){
+@media (max-width: 1080px){
 
     .title{
         padding: auto;
@@ -74,7 +78,7 @@ p{
     }
 
     .form{
-        padding: .3em;
+        padding: .7em;
     }
 
     label, input[type="number"], input[placeholder], select,.submit{

@@ -7,7 +7,7 @@
   
   .card {
     background-color: aliceblue;
-    width: 18em;
+    width: 20em;
     margin: 8px;
     flex-direction: column;
     text-decoration: none;
@@ -37,7 +37,7 @@
     }
 
     .h2-nameDog{
-      font-size: 1em;
+      font-size: .9em;
     }
 
     .h3-dogcardDetail{

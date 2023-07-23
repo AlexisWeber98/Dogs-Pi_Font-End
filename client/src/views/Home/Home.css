@@ -103,7 +103,7 @@ justify-items: center;
 
 .firstDogs{
     display: flex;
-    width: 80%;
+    width: 100%;
     align-items: center;
     justify-content: center;
     justify-items: center;
@@ -112,6 +112,22 @@ justify-items: center;
 @media (max-width:1080px) {
     .buttonShow{
         margin-left: 1.5em;
+    }
+
+.pagination{
+    font-size: .8em;
+    margin: .3em;
+}
+
+    .pagination p{
+        font-size: .9em;
+        margin: .6em;
+    }
+
+    .pages{
+        font-size: .9em;
+        margin: .3em;
+        
     }
 }
 

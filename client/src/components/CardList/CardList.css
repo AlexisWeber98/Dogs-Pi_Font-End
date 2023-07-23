@@ -30,5 +30,20 @@
     margin: .5em
   }
 
+  @media (max-width:1080px){
+    .card{
+      width: 13em;
+      margin: 5px;
+    }
+
+    .h2-nameDog{
+      font-size: 1em;
+    }
+
+    .h3-dogcardDetail{
+      font-size: .8em;
+    }
+  }
+
   
   

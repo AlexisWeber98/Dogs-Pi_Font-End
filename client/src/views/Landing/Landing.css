@@ -69,12 +69,16 @@ background-position: center;
     justify-content: center;
     align-items: center;
 }
+
 .nameCont{
-    margin-top: 2em;
+    margin-top: 1em;
     text-align:center;
     background-color: beige;
-    font-size: 1.5em;
-    padding: .5em;
+    padding: .25em;
+}
+
+.nameLanding{
+    font-size: 1.2em;
 }
 
 

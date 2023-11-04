@@ -23,8 +23,8 @@ const Landing = () => {
   return (
     <div className="landingContainer">
       <div className="title">
+        <img className="logo" src={WoD} alt="logo" width={150} />
         <h1>Welcome to World Of Dogs!</h1>
-        <img src={WoD} alt="logo" width={30} height={auto} />
       </div>
       <hr />
       <br />

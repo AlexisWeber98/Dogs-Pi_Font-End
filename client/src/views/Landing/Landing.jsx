@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import "./Landing.css";
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import { WoD } from "../../../public/WoD.png";
+import WoD from "../../../public/WoD.png";
 
 const Landing = () => {
   const dogs = useSelector((state) => state.filteredDogs);

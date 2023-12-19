@@ -2,7 +2,7 @@ import { ALL_DOGS, FILTRED_CREATED, GET_DETAIL, ORDER_BY_NAME, ORDER_BY_WEIGHT, 
 import axios from 'axios'
 
 //const URL ="http://localhost:3001/"
-const URL = "https://dogs-pi-production-18a0.up.railway.app/"
+const URL = "https://dogs-pi.fly.dev/"
 
 
 export const getAllDogs = () => {
